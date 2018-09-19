@@ -1,21 +1,38 @@
-/**
- * Unit 1 Project
- * 
- * In this project you have the opportunity to create a piece of artwork using ASCII 
- * (American Standard Code for Information Interchange). Using the already created file 
- * named `ASCIIArt.java` write a program that outputs your artwork to the console. 
- * The goal of this project is to use ONLY what we have learned in Unit 1 to create 
- * anything you would like so be creative (and school appropriate). Artwork must also have a caption describing what it's depicting.  
- * 
- * For those of you who have dabbled in coding before, try to contain your code to 
- * just what we have discussed in this unit.  
- * 
- * @author Mr. Rasmussen 
- *
- */
 
 public class ASCIIArt {
-	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
+	public static void oceanTop() {
+		System.out.print("--^--^--^--^");
+	}
+	public static void boxFish() {
+		System.out.println(" ____   ____      ____");
+		System.out.println(" |*  |/ |*  |/   \\|  *|");
+		System.out.println(" |___|\\ |___|\\   /|___| ");
+	}
+	public static void longFish() {
+		System.out.print("><((((°> ");
+		System.out.print("><((((°> ");
+		System.out.println("><((((°> ");
+	}
+	public static void seaWeed() {
+		System.out.println("( ( ( ( ( ( ( ( ( ( ( ( (");
+		System.out.println(" ) ) ) ) ) ) ) ) ) ) ) ) )");
+		System.out.println("( ( ( ( ( ( ( ( ( ( ( ( (");
+		System.out.println("_)_)_)_)_)_)_)_)_)_)_)_)_)_");
+	}
+	public static void main (String[] args) {
+		oceanTop();
+		oceanTop();
+		System.out.println("");
+		boxFish();
+		System.out.println("");
+		longFish();
+		longFish();
+		boxFish();
+		System.out.println("");
+		longFish();
+		System.out.println("");
+		seaWeed();
+		System.out.println("\n\"This is a representation of the ocean.");
+		System.out.println("There are waves, fish and seaweed!\"");
 	}
 }
